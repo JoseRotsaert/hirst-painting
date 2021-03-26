@@ -31,8 +31,10 @@ screen = turtle_module.Screen()
 
 tim.setheading(225)
 tim.pu()
+tim.ht()
 tim.fd(250)
 tim.setheading(0)
+
 
 tim.speed("fastest")
 
@@ -51,7 +53,7 @@ for y in range(10):
     tp_y += 50
     tim.sety(tp_y)
 
-tim.ht()
+
 
 screen.exitonclick()
 
